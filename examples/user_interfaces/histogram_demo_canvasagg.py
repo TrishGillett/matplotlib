@@ -5,9 +5,8 @@ figure canvas to create a figure using the pythonic API.
 In this example, the contents of the agg canvas are extracted to a
 string, which can in turn be passed off to PIL or put in a numeric
 array
-
-
 """
+
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 from matplotlib.figure import Figure
 from matplotlib.mlab import normpdf

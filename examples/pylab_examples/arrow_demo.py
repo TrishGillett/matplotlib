@@ -1,12 +1,10 @@
-"""Arrow drawing example for the new fancy_arrow facilities.
+"""
+Arrow drawing example for the new fancy_arrow facilities.
 
 Code contributed by: Rob Knight <rob@spot.colorado.edu>
 
 usage:
-
   python arrow_demo.py realistic|full|sample|extreme
-
-
 """
 import matplotlib.pyplot as plt
 import numpy as np

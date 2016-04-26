@@ -1,23 +1,32 @@
-# Creates two identical panels.  Zooming in on the right panel will show
-# a rectangle in the first panel, denoting the zoomed region.
+"""
+Creates two identical panels.  Zooming in on the right panel will show
+a rectangle in the first panel, denoting the zoomed region.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
 
-# We just subclass Rectangle so that it can be called with an Axes
-# instance, causing the rectangle to update its shape to match the
-# bounds of the Axes
 class UpdatingRect(Rectangle):
+    """
+    We just subclass Rectangle so that it can be called with an Axes
+    instance, causing the rectangle to update its shape to match the
+    bounds of the Axes.
+    """
+
     def __call__(self, ax):
         self.set_bounds(*ax.viewLim.bounds)
         ax.figure.canvas.draw_idle()
 
 
-# A class that will regenerate a fractal set as we zoom in, so that you
-# can actually see the increasing detail.  A box in the left panel will show
-# the area to which we are zoomed.
 class MandlebrotDisplay(object):
+    """
+    A class that will regenerate a fractal set as we zoom in, so that you
+    can actually see the increasing detail.  A box in the left panel will show
+    the area to which we are zoomed.
+    """
+
     def __init__(self, h=500, w=500, niter=50, radius=2., power=2):
         self.height = h
         self.width = w

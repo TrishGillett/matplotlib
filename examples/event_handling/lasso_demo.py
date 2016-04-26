@@ -1,11 +1,12 @@
 """
 Show how to use a lasso to select a set of points and get the indices
 of the selected points.  A callback is used to change the color of the
-selected points
+selected points.
 
 This is currently a proof-of-concept implementation (though it is
 usable as is).  There will be some refinement of the API.
 """
+
 from matplotlib.widgets import Lasso
 from matplotlib.colors import colorConverter
 from matplotlib.collections import RegularPolyCollection

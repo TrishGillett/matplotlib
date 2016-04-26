@@ -32,8 +32,7 @@ class PathInteractor(object):
     Key-bindings
 
       't' toggle vertex markers on and off.  When vertex markers are on,
-          you can move them, delete them
-
+          you can move them, delete them.
 
     """
 

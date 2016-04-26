@@ -4,6 +4,7 @@ Comparative path demonstration of frequency from a fake signal of a pulsar.
 
 Author: Nicolas P. Rougier
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation

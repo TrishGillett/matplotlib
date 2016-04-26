@@ -1,6 +1,8 @@
 """
-Enable picking on the legend to toggle the legended line on and off
+Enables picking on the legend to toggle whether the corresponding
+line is plotted.
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -26,8 +28,11 @@ for legline, origline in zip(leg.get_lines(), lines):
 
 
 def onpick(event):
-    # on the pick event, find the orig line corresponding to the
-    # legend proxy line, and toggle the visibility
+    """
+    On the pick event, find the orig line corresponding to the
+    legend proxy line, and toggle the visibility.
+    """
+
     legline = event.artist
     origline = lined[legline]
     vis = not origline.get_visible()

@@ -1,6 +1,7 @@
 """
 A simple example of an animated plot... In 3D!
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d.axes3d as p3

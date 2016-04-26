@@ -1,10 +1,12 @@
 from __future__ import print_function
 
-#  GTK Interactive Console
-#  (C) 2003, Jon Anderson
-#  See www.python.org/2.2/license.html for
-#  license details.
-#
+"""
+GTK Interactive Console
+(C) 2003, Jon Anderson
+See www.python.org/2.2/license.html for
+license details.
+"""
+
 import gtk
 import gtk.gdk
 

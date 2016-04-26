@@ -3,8 +3,12 @@ import matplotlib.pyplot as plt
 from scikits.audiolab import wavread
 
 
-# A class that will downsample the data and recompute when zoomed.
+
 class DataDisplayDownsampler(object):
+    """
+    A class that will downsample the data and recompute when zoomed.
+    """
+
     def __init__(self, xdata, ydata):
         self.origYData = ydata
         self.origXData = xdata
@@ -12,8 +16,11 @@ class DataDisplayDownsampler(object):
         self.delta = xdata[-1] - xdata[0]
 
     def resample(self, xstart, xend):
-        # Very simple downsampling that takes the points within the range
-        # and picks every Nth point
+        """
+        Very simple downsampling function that takes the points within the
+        range and picks every Nth point.
+        """
+
         mask = (self.origXData > xstart) & (self.origXData < xend)
         xdata = self.origXData[mask]
         ratio = int(xdata.size / self.numpts) + 1
@@ -25,7 +32,8 @@ class DataDisplayDownsampler(object):
         return xdata, ydata
 
     def update(self, ax):
-        # Update the line
+        """ Updates the line. """
+        
         lims = ax.viewLim
         if np.abs(lims.width - self.delta) > 1e-8:
             self.delta = lims.width

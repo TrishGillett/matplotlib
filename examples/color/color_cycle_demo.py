@@ -9,6 +9,7 @@ This example demonstrates two different APIs:
     2. Setting the property cycle for a specific axes. This only
        affects a single axes.
 """
+
 from cycler import cycler
 import numpy as np
 import matplotlib.pyplot as plt

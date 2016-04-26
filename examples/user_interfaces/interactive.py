@@ -1,4 +1,5 @@
-"""Multithreaded interactive interpreter with GTK and Matplotlib support.
+"""
+Multithreaded interactive interpreter with GTK and Matplotlib support.
 
 WARNING:
 As of 2010/06/25, this is not working, at least on Linux.
@@ -18,11 +19,12 @@ McErlean and John Finlay.
 
 Matplotlib support taken from interactive.py in the matplotlib distribution.
 
-Also borrows liberally from code.py in the Python standard library."""
+Also borrows liberally from code.py in the Python standard library.
+
+Example by Fernando Perez <Fernando.Perez@colorado.edu>
+"""
 
 from __future__ import print_function
-
-__author__ = "Fernando Perez <Fernando.Perez@colorado.edu>"
 
 import sys
 import code

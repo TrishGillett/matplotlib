@@ -1,7 +1,7 @@
 """
 Visualization of named colors.
 
-Simple plot example with the named colors and its visual representation.
+Simple plot example showing the named colors and their color swatches.
 """
 
 from __future__ import (absolute_import, division, print_function,

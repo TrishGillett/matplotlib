@@ -1,5 +1,4 @@
 """
-
 You can enable picking by setting the "picker" property of an artist
 (for example, a matplotlib Line2D, Text, Patch, Polygon, AxesImage,
 etc...)

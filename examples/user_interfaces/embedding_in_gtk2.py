@@ -2,6 +2,7 @@
 show how to add a matplotlib FigureCanvasGTK or FigureCanvasGTKAgg widget and
 a toolbar to a gtk.Window
 """
+
 import gtk
 
 from matplotlib.figure import Figure

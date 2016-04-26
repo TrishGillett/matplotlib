@@ -30,8 +30,8 @@ Qualitative:
 
 Miscellaneous:
     Colormaps that don't fit into the categories above.
-
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 

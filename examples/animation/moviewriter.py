@@ -1,8 +1,10 @@
-# This example uses a MovieWriter directly to grab individual frames and
-# write them to a file. This avoids any event loop integration, but has
-# the advantage of working with even the Agg backend. This is not recommended
-# for use in an interactive setting.
 # -*- noplot -*-
+"""
+This example uses a MovieWriter directly to grab individual frames and
+write them to a file. This avoids any event loop integration, but has
+the advantage of working with even the Agg backend. This is not recommended
+for use in an interactive setting.
+"""
 
 import numpy as np
 import matplotlib

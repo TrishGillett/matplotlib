@@ -1,4 +1,7 @@
-# update a distribution based on new data.
+"""
+Demonstrates animating how a distribution is updated based on new data.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as ss

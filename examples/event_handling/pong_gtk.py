@@ -1,8 +1,11 @@
 from __future__ import print_function
 
-# For detailed comments on animation and the techniques used here, see
-# the wiki entry
-# http://www.scipy.org/wikis/topical_software/MatplotlibAnimation
+"""
+For detailed comments on animation and the techniques used here, see
+the wiki entry
+http://www.scipy.org/wikis/topical_software/MatplotlibAnimation
+"""
+
 import time
 
 import gobject
