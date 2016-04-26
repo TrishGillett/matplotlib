@@ -5,6 +5,7 @@ ttf file for a font instance, you can do so using the
 font_manager.FontProperties fname argument (for a more flexible
 solution, see the font_fmaily_rc.py and fonts_demo.py examples).
 """
+
 import sys
 import os
 import matplotlib.font_manager as fm

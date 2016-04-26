@@ -1,8 +1,9 @@
 """
 When plotting time series, e.g., financial time series, one often wants
 to leave out days on which there is no data, eh weekends.  The example
-below shows how to use an 'index formatter' to achieve the desired plot
+below shows how to use an 'index formatter' to achieve the desired plot.
 """
+
 from __future__ import print_function
 import numpy as np
 import matplotlib.pyplot as plt

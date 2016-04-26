@@ -26,6 +26,7 @@ class HammerAxes(Axes):
 
     http://en.wikipedia.org/wiki/Hammer_projection
     """
+
     # The projection must specify a name.  This will be used be the
     # user to select the projection, i.e. ``subplot(111,
     # projection='custom_hammer')``.

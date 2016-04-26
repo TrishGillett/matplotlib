@@ -1,8 +1,9 @@
 """
 Make a compund path -- in this case two simple polygons, a rectangle
 and a triangle.  Use CLOSEOPOLY and MOVETO for the different parts of
-the compound path
+the compound path.
 """
+
 import numpy as np
 from matplotlib.path import Path
 from matplotlib.patches import PathPatch

@@ -7,7 +7,7 @@ we have them, we can draw collections of regularly shaped objects with
 homogeous properties more efficiently with a PathCollection.  This
 example makes a histogram -- its more work to set up the vertex arrays
 at the outset, but it should be much faster for large numbers of
-objects
+objects.
 """
 
 import numpy as np

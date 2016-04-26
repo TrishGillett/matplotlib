@@ -7,9 +7,9 @@ All matplotlib date plotting is done by converting date instances into
 days since the 0001-01-01 UTC.  The conversion, tick locating and
 formatting is done behind the scenes so this is most transparent to
 you.  The dates module provides several converter functions date2num
-and num2date
-
+and num2date.
 """
+
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt

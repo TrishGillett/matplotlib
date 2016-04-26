@@ -1,8 +1,9 @@
 """
-This example makes custom 'pie charts' as the markers for a scatter plotqu
+This example makes custom 'pie charts' as the markers for a scatter plot.
 
-Thanks to Manuel Metz for the example
+Thanks to Manuel Metz for the example.
 """
+
 import math
 import numpy as np
 import matplotlib.pyplot as plt

@@ -1,4 +1,7 @@
-# a bar plot with errorbars
+"""
+A bar plot with error bars.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

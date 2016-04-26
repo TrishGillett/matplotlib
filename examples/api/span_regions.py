@@ -1,9 +1,10 @@
 """
 Illustrate some helper functions for shading regions where a logical
-mask is True
+mask is True.
 
 See :meth:`matplotlib.collections.BrokenBarHCollection.span_where`
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.collections as collections

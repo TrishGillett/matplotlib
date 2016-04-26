@@ -1,7 +1,8 @@
 from __future__ import print_function
 
-__author__ = "Yannick Copin <ycopin@ipnl.in2p3.fr>"
-__version__ = "Time-stamp: <10/02/2010 16:49 ycopin@lyopc548.in2p3.fr>"
+"""
+Example by Yannick Copin <ycopin@ipnl.in2p3.fr>
+"""
 
 import numpy as np
 

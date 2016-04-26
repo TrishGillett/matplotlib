@@ -1,13 +1,15 @@
-# This serves as an intensive exercise of matplotlib's transforms
-# and custom projection API. This example produces a so-called
-# SkewT-logP diagram, which is a common plot in meteorology for
-# displaying vertical profiles of temperature. As far as matplotlib is
-# concerned, the complexity comes from having X and Y axes that are
-# not orthogonal. This is handled by including a skew component to the
-# basic Axes transforms. Additional complexity comes in handling the
-# fact that the upper and lower X-axes have different data ranges, which
-# necessitates a bunch of custom classes for ticks,spines, and the axis
-# to handle this.
+"""
+This serves as an intensive exercise of matplotlib's transforms
+and custom projection API. This example produces a so-called
+SkewT-logP diagram, which is a common plot in meteorology for
+displaying vertical profiles of temperature. As far as matplotlib is
+concerned, the complexity comes from having X and Y axes that are
+not orthogonal. This is handled by including a skew component to the
+basic Axes transforms. Additional complexity comes in handling the
+fact that the upper and lower X-axes have different data ranges, which
+necessitates a bunch of custom classes for ticks,spines, and the axis
+to handle this.
+"""
 
 from matplotlib.axes import Axes
 import matplotlib.transforms as transforms
@@ -16,11 +18,13 @@ import matplotlib.spines as mspines
 import matplotlib.path as mpath
 from matplotlib.projections import register_projection
 
-# The sole purpose of this class is to look at the upper, lower, or total
-# interval as appropriate and see what parts of the tick to draw, if any.
-
 
 class SkewXTick(maxis.XTick):
+    """
+    The sole purpose of this class is to look at the upper, lower, or total
+    interval as appropriate and see what parts of the tick to draw, if any.
+    """
+    
     def draw(self, renderer):
         if not self.get_visible():
             return

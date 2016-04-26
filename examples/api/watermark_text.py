@@ -1,6 +1,7 @@
 """
-Use a Text as a watermark
+Use a Text as a watermark.
 """
+
 import numpy as np
 #import matplotlib
 #matplotlib.use('Agg')

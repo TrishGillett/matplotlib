@@ -40,6 +40,7 @@ def filled_hist(ax, edges, values, bottoms=None, orientation='v',
     ret : PolyCollection
         Artist added to the Axes
     """
+
     print(orientation)
     if orientation not in set('hv'):
         raise ValueError("orientation must be in {{'h', 'v'}} "

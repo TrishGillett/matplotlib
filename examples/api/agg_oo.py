@@ -2,6 +2,7 @@
 """
 A pure OO (look Ma, no pylab!) example using the agg backend
 """
+
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 from matplotlib.figure import Figure
 

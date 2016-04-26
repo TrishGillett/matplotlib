@@ -1,7 +1,8 @@
 """
 Show how to modify the coordinate formatter to report the image "z"
-value of the nearest pixel given x and y
+value of the nearest pixel given x and y.
 """
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm

@@ -1,4 +1,5 @@
-"""Demonstrate/test the Sankey class by producing a long chain of connections.
+"""
+Demonstrate/test the Sankey class by producing a long chain of connections.
 """
 
 from itertools import cycle

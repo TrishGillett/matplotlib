@@ -1,5 +1,4 @@
 """
-
 Demonstrate how to do two plots on the same axes with different left
 right scales.
 
@@ -17,7 +16,6 @@ use the xaxis instance and call tick_bottom and tick_top in place of
 tick_left and tick_right.)
 
 The twinx and twiny methods are also exposed as pyplot functions.
-
 """
 
 import numpy as np

@@ -9,6 +9,7 @@ polygon is not aligned with the radial axes.
 
 .. [1] http://en.wikipedia.org/wiki/Radar_chart
 """
+
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -29,8 +30,8 @@ def radar_factory(num_vars, frame='circle'):
         Number of variables for radar chart.
     frame : {'circle' | 'polygon'}
         Shape of frame surrounding axes.
-
     """
+
     # calculate evenly-spaced axis angles
     theta = np.linspace(0, 2*np.pi, num_vars, endpoint=False)
     # rotate theta such that the first axis is at the top

@@ -40,6 +40,7 @@ class MercatorLatitudeScale(mscale.ScaleBase):
 
         thresh: The degree above which to crop the data.
         """
+
         mscale.ScaleBase.__init__(self)
         thresh = kwargs.pop("thresh", np.radians(85))
         if thresh >= np.pi / 2.0:

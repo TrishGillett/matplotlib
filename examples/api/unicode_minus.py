@@ -4,8 +4,9 @@ http://en.wikipedia.org/wiki/Plus_sign#Plus_sign) or the ASCII hypen
 for minus, which some people prefer.  The matplotlibrc param
 axes.unicode_minus controls the default behavior.
 
-The default is to use the unicode minus
+The default is to use the unicode minus.
 """
+
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
